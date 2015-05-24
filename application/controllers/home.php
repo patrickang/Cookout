@@ -22,7 +22,7 @@ class Home extends CI_Controller {
 	{
 		$header_data['title'] = 'Cookout - Sausages | Burgers | BBQ';
 		$this->load->view('header',$header_data);
-		$this->load->view('navbar');
 		$this->load->view('home');
+		$this->load->view('footer');
 	}
 }

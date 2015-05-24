@@ -1,3 +1,11 @@
 /*!
  * Custom CSS
  */
+.home-section {
+	background-image: url(../images/cookout_main.png);
+	width:100%;
+}
+
+.navbar {
+	margin-bottom:0px;
+}
