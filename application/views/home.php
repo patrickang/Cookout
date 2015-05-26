@@ -16,7 +16,7 @@
 	    </div>
 	    <nav class="navbar-collapse bs-navbar-collapse collapse" aria-expanded="false">
 	      <ul class="nav navbar-nav navbar-right">
-	        <li class="active home">
+	        <li>
 	        	<a href="#home">Home</a>
 	        </li>
 	        <li>
@@ -38,7 +38,8 @@
 
 <div class="main-content-body">
 
-	<section class="container-fluid home-section" id="home"></section>
+	<section class="container-fluid home-section" id="home">
+	</section>
 
 	<section class="about-us initial-section" id="about_us">
 		<div class="container">
@@ -62,7 +63,7 @@
 		</div>
 		<div class="container">
 			<div class="row menu-content">
-				<div class="col-md-6">
+				<div class="col-sm-6">
 					<div class="col-xs-12">
 						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_1_square.png"/>Burger 1
 						<span class="menu-price">&#8369;250</span>
@@ -88,7 +89,7 @@
 						<span class="menu-price">&#8369;250</span>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-sm-6">
 					<div class="col-xs-12">
 						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/lasagna_square.png"/>Lasagna
 						<span class="menu-price">&#8369;250</span>
@@ -113,6 +114,17 @@
 						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/wings_square.png"/>Wings
 						<span class="menu-price">&#8369;250</span>
 					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="home-section2">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-7">
+					<h1 class="heading-content2">Cookout is home to great grilled home-made sausages and burgers</h1>
+					 <p class="lead">your go-to place for American comfort food!</p>
 				</div>
 			</div>
 		</div>
@@ -143,18 +155,18 @@
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_4">
 					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/burger_4_square.png"/>
-					<span class="gallery-caption" id="caption_4">Burger 4</span>
+					<span class="hidden-xs gallery-caption" id="caption_4">Burger 4</span>
 					<span class="visible-xs gallery-caption-xs">Burger 4</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_5">
 					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/ribs_square.png"/>
 					<span class="hidden-xs gallery-caption" id="caption_5">Ribs</span>
-					<span class="visible-xs gallery-caption-xs">5">Ribs</span>
+					<span class="visible-xs gallery-caption-xs">Ribs</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_6">
 					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/carbonara_square.png"/>
 					<span class="hidden-xs gallery-caption" id="caption_6">Carbonara</span>
-					<span class="visible-xs gallery-caption-xs">rbonara</span>
+					<span class="visible-xs gallery-caption-xs">Carbonara</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_7">
 					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/lasagna_square.png"/>
@@ -206,7 +218,7 @@
 					<br><br>
 					<i class="fa fa-phone"></i> (074) 424 3220
 					<br><br>
-					<i class="fa fa-calendar"></i> Mon - Fri 10:00am to 9:00pm
+					<i class="fa fa-calendar"></i> Mon - Sun 10:00am to 9:00pm
 				</div>
 			</div>
 		</div>
