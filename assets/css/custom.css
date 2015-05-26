@@ -1,0 +1,245 @@
+/*!
+ * Custom CSS
+ */
+
+
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(https://fonts.gstatic.com/s/oswald/v10/l1cOQ90roY9yC7voEhngDIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(https://fonts.gstatic.com/s/oswald/v10/HqHm7BVC_nzzTui2lzQTDZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v10/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v10/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v10/dI-qzxlKVQA6TUC5RKSb34X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.home-section {
+	background-image: url(../images/cookout_main2.png);
+	position:absolute;
+	top:0;
+	height:100%;
+	width:100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.navbar {
+	margin-bottom:0px;
+	border-radius:0px;
+	border-bottom:solid 1px gray;
+}
+
+.header-text {
+	color:white;
+}
+
+.navbar-logo {
+	height:40px;
+	margin-top:5px;
+}
+
+.navbar-inverse {
+	background-color:black;
+}
+
+.navbar-toggle {
+	margin-top:35px;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li.active > a  {
+	background-color: #2c3e4e !important;
+}
+
+body {
+	font-family: "Oswald",sans-serif!important;
+	text-transform : uppercase;
+}
+
+@media (min-width:992px) { 
+	.heading-content {
+		margin-top:180px;
+	}
+}
+
+@media (max-width:991px) { 
+	.heading-image {
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+.section-header {
+	margin-bottom:30px;
+}
+
+.gallery-section > div {
+	margin-bottom:30px;
+	cursor:pointer;
+}
+
+.grey-background {
+	border-top: 1px solid #eaebec;
+	border-bottom: 1px solid #eaebec;
+	background: #F7F8FA;
+}
+
+.gallery-caption {
+	position: absolute;
+ 	width: 262px;
+ 	margin-top:222px;
+ 	top:0px;
+ 	height: 40px;
+ 	color: transparent;
+ 	background-color: transparent;
+ 	text-align: center;
+ 	font-size: 23px;
+ 	line-height: 40px;
+ 	-webkit-transition: all .4s ease;
+ 	-o-transition: all .4s ease;
+ 	transition: all .4s ease;
+}
+
+.initial-section {
+	margin-top:40%;
+}
+
+footer{
+	margin-top:40px;
+	background-color:black;
+	color:white;
+}
+
+section {
+	margin-bottom:10px;
+}
+
+.menu {
+	margin-top:50px;
+	background-color:#f4f4f4;
+}
+
+.menu-content > div > div{
+	font-size:21px;
+}
+
+.menu-content > div > div > img{
+	width:80px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+.menu-price {
+	float:right;
+	margin-top:33px;
+}
+
+a {
+	color:black;
+}
+
+a.active {
+	text-decoration:underline;
+}
+
+.contact-us-map {
+	width:100%;
+	height:400px;
+}
+
+@media (max-width:1199px) {
+	.gallery-caption {
+		width:211px;
+		margin-top:172px;
+	}
+}
+
+@media (max-width:991px) {
+	.gallery-caption {
+		width:345px;
+		margin-top:305px;
+	}
+}
+
+@media (max-width:767px) {
+	.gallery-caption {
+		width:500px;
+		margin-top:460px;
+		margin-left:119px;
+	}
+}
+
+.gallery-caption-xs {
+	font-size:30px;
+	text-align:center;
+	padding-top:5px;
+}
+
+.contact-us-text {
+	margin-top:40px;
+	font-size:21px;
+}
+
+@media (min-width:992px) {
+	.contact-us-text {
+		margin-top:110px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
