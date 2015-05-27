@@ -71,53 +71,53 @@
 			<div class="row menu-content">
 				<div class="col-sm-6">
 					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_1_square.png"/>Burger 1
+						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_1_square.jpg"/>Burger 1
 						<span class="menu-price">&#8369;250</span>
 					</div>
 					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_2_square.png"/>Burger 2
+						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_2_square.jpg"/>Burger 2
 						<span class="menu-price">&#8369;250</span>
 					</div>
 					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_3_square.png"/>Burger 3
+						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_3_square.jpg"/>Burger 3
 						<span class="menu-price">&#8369;250</span>
 					</div>
 					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_4_square.png"/>Burger 4
+						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_4_square.jpg"/>Burger 4
 						<span class="menu-price">&#8369;250</span>
 					</div>
 					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/ribs_square.png"/>Ribs
+						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/ribs_square.jpg"/>Ribs
 						<span class="menu-price">&#8369;250</span>
 					</div>
 					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/carbonara_square.png"/>Carbonara
+						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/carbonara_square.jpg"/>Carbonara
 						<span class="menu-price">&#8369;250</span>
 					</div>
 				</div>
 				<div class="col-sm-6">
 					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/lasagna_square.png"/>Lasagna
+						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/lasagna_square.jpg"/>Lasagna
 						<span class="menu-price">&#8369;250</span>
 					</div>
 					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/cheese_steak_square.png"/>Cheese Steak
+						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/cheese_steak_square.jpg"/>Cheese Steak
 						<span class="menu-price">&#8369;250</span>
 					</div>
 					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/hungarian_square.png"/>Hungarian
+						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/hungarian_square.jpg"/>Hungarian
 						<span class="menu-price">&#8369;250</span>
 					</div>
 					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/fries_square.png"/>Fries
+						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/fries_square.jpg"/>Fries
 						<span class="menu-price">&#8369;250</span>
 					</div>
 					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/splatter_square.png"/>Splatter
+						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/splatter_square.jpg"/>Splatter
 						<span class="menu-price">&#8369;250</span>
 					</div>
 					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/wings_square.png"/>Wings
+						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/wings_square.jpg"/>Wings
 						<span class="menu-price">&#8369;250</span>
 					</div>
 				</div>
@@ -145,62 +145,62 @@
 		<div class="container">
 			<div class="row gallery-section">
 				<div class="col-md-3 col-sm-6" id="image_1">
-					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/burger_1_square.png"/>
+					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/burger_1_square.jpg"/>
 					<span class="hidden-xs gallery-caption" id="caption_1">Burger 1</span>
 					<span class="visible-xs gallery-caption-xs">Burger 1</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_2">
-					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/burger_2_square.png"/>
+					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/burger_2_square.jpg"/>
 					<span class="hidden-xs gallery-caption" id="caption_2">Burger 2</span>
 					<span class="visible-xs gallery-caption-xs">Burger 2</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_3">
-					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/burger_3_square.png"/>
+					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/burger_3_square.jpg"/>
 					<span class="hidden-xs gallery-caption" id="caption_3">Burger 3</span>
 					<span class="visible-xs gallery-caption-xs">Burger 3</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_4">
-					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/burger_4_square.png"/>
+					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/burger_4_square.jpg"/>
 					<span class="hidden-xs gallery-caption" id="caption_4">Burger 4</span>
 					<span class="visible-xs gallery-caption-xs">Burger 4</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_5">
-					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/ribs_square.png"/>
+					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/ribs_square.jpg"/>
 					<span class="hidden-xs gallery-caption" id="caption_5">Ribs</span>
 					<span class="visible-xs gallery-caption-xs">Ribs</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_6">
-					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/carbonara_square.png"/>
+					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/carbonara_square.jpg"/>
 					<span class="hidden-xs gallery-caption" id="caption_6">Carbonara</span>
 					<span class="visible-xs gallery-caption-xs">Carbonara</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_7">
-					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/lasagna_square.png"/>
+					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/lasagna_square.jpg"/>
 					<span class="hidden-xs gallery-caption" id="caption_7">Lasagna</span>
 					<span class="visible-xs gallery-caption-xs">Lasagna</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_8">
-					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/cheese_steak_square.png"/>
+					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/cheese_steak_square.jpg"/>
 					<span class="hidden-xs gallery-caption" id="caption_8">Cheese Steak</span>
 					<span class="visible-xs gallery-caption-xs">Cheese Steak</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_9">
-					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/hungarian_square.png"/>
+					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/hungarian_square.jpg"/>
 					<span class="hidden-xs gallery-caption" id="caption_9">Hungarian</span>
 					<span class="visible-xs gallery-caption-xs">Hungarian</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_10">
-					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/fries_square.png"/>
+					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/fries_square.jpg"/>
 					<span class="hidden-xs gallery-caption" id="caption_10">Fries</span>
 					<span class="visible-xs gallery-caption-xs">Fries</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_11">
-					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/splatter_square.png"/>
+					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/splatter_square.jpg"/>
 					<span class="hidden-xs gallery-caption" id="caption_11">Splatter</span>
 					<span class="visible-xs gallery-caption-xs">Splatter</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_12">
-					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/wings_square.png"/>
+					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/wings_square.jpg"/>
 					<span class="hidden-xs gallery-caption" id="caption_12">Wings</span>
 					<span class="visible-xs gallery-caption-xs">Wings</span>
 				</div>
@@ -242,7 +242,7 @@
 </div>
 
 <script>
-	$(window).load(function(){
+	$(document).ready(function(){
 		$('.initial-load').hide();
 		$('.main-content-body').show();
 	})
