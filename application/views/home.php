@@ -1,5 +1,5 @@
 <div class="initial-load">
-	<i class="fa fa-spinner fa-pulse fa-5x"></i>
+	<i class="fa fa-spinner fa-pulse fa-5x middle-fixed"></i>
 </div>
 <header class="navbar navbar-inverse navbar-fixed-top" id="top" role="banner">
 	  <div class="container">
@@ -38,13 +38,19 @@
 
 <div class="main-content-body">
 
-	<section class="container-fluid home-section" id="home">
+	<section data-speed="3" class="container-fluid home-section parallax-section" id="home">
 	</section>
 
-	<section class="about-us initial-section" id="about_us">
+	<section class="first-section">
+				<div class="col-xs-4 col-xs-push-4 first-section-text text-center">
+			    	<h1>You Chill, We Grill!</h1>
+			    </div>
+	</section>
+
+	<section  class="about-us initial-section" id="about_us">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-7">
+				<div class="col-md-7 center-small">
 					<h1 class="heading-content">Cookout is home to great grilled home-made sausages and burgers</h1>
 					 <p class="lead">your go-to place for American comfort food!</p>
 				</div>
@@ -55,7 +61,7 @@
 		</div>
 	</section>
 
-	<section class="menu" id="menu">
+	<section  class="menu" id="menu">
 		<div class="container">
 			<div class="row text-center section-header">
 				<h1>Menu</h1>
@@ -119,7 +125,7 @@
 		</div>
 	</section>
 
-	<section class="home-section2">
+	<section  class="home-section2">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-7">
@@ -202,7 +208,7 @@
 		</div>
 	</section>
 
-	<section class="contact-us" id="contact">
+	<section  class="contact-us" id="contact">
 		<div class="container">
 			<div class="row text-center section-header">
 				<h1>Contact Us</h1>
@@ -213,7 +219,7 @@
 				<div class="col-md-6">
 					<iframe class="contact-us-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3827.2152474368177!2d120.617952!3d16.413891000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a15c2d731c97%3A0xccd305e17c39492!2sAlbergo+Hotel!5e0!3m2!1sen!2sph!4v1432620000993" frameborder="0" style="border:0"></iframe>
 				</div>
-				<div class="col-md-6 contact-us-text">
+				<div class="col-md-6 contact-us-text center-small">
 					<i class="fa fa-map-marker"></i> &nbsp;&nbsp;Albergo Hotel, Villamor Street Baguio City
 					<br><br>
 					<i class="fa fa-phone"></i> (074) 424 3220
@@ -268,6 +274,27 @@
 	    }
 	  });
 	});
+	$(document).ready(function(){
+	   // cache the window object
+	   $window = $(window);
+	 
+	   $('.parallax-section').each(function(){
+	     // declare the variable to affect the defined data-type
+	     var $scroll = $(this);
+	                     
+	      $(window).scroll(function() {
+	        // HTML5 proves useful for helping with creating JS functions!
+	        // also, negative value because we're scrolling upwards                             
+	        var yPos = -($window.scrollTop() / $scroll.data('speed')); 
+	         
+	        // background position
+	        var coords = '50%'+ yPos + 'px';
+	 
+	        // move the background
+	        $scroll.css({ backgroundPosition: coords });    
+	      }); // end window scroll
+	   });  // end section function
+	}); // close out script
 </script>
 
 
