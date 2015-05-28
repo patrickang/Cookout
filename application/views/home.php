@@ -38,10 +38,7 @@
 
 <div class="main-content-body">
 
-	<section data-speed="3" class="container-fluid home-section parallax-section" id="home">
-	</section>
-
-	<section class="first-section">
+	<section data-speed="2" class="container-fluid home-section parallax-section" id="home">
 				<div class="col-xs-4 col-xs-push-4 first-section-text text-center">
 			    	<h1>You Chill, We Grill!</h1>
 			    </div>
@@ -203,6 +200,17 @@
 					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/wings_square.jpg"/>
 					<span class="hidden-xs gallery-caption" id="caption_12">Wings</span>
 					<span class="visible-xs gallery-caption-xs">Wings</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section  class="home-section2">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-7">
+					<h1 class="heading-content2">Cookout is home to great grilled home-made sausages and burgers</h1>
+					 <p class="lead">your go-to place for American comfort food!</p>
 				</div>
 			</div>
 		</div>
