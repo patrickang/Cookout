@@ -38,11 +38,11 @@
 
 <div class="main-content-body">
 
-	<section data-speed="2" class="container-fluid home-section parallax-section" id="home">
-				<div class="col-xs-4 col-xs-push-4 first-section-text text-center">
+	<div data-speed="2" class="container-fluid home-section parallax-section" id="home">
+				<div class="col-xs-6 col-xs-push-3 col-sm-6 col-sm-push-3 first-section-text text-center">
 			    	<h1>You Chill, We Grill!</h1>
 			    </div>
-	</section>
+	</div>
 
 	<section  class="about-us initial-section" id="about_us">
 		<div class="container">
@@ -122,10 +122,10 @@
 		</div>
 	</section>
 
-	<section  class="home-section2">
+	<section data-speed="8" class="home-section2 parallax-section2">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-7">
+				<div class="col-xs-6 pull-right">
 					<h1 class="heading-content2">Cookout is home to great grilled home-made sausages and burgers</h1>
 					 <p class="lead">your go-to place for American comfort food!</p>
 				</div>
@@ -205,7 +205,7 @@
 		</div>
 	</section>
 
-	<section  class="home-section2">
+	<section data-speed="8" class="home-section3 parallax-section3">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-7">
@@ -293,7 +293,77 @@
 	      $(window).scroll(function() {
 	        // HTML5 proves useful for helping with creating JS functions!
 	        // also, negative value because we're scrolling upwards                             
-	        var yPos = -($window.scrollTop() / $scroll.data('speed')); 
+	        var yPos = -(($window.scrollTop() / $scroll.data('speed')) ); 
+	         
+	        // background position
+	        var coords = '50%'+ yPos + 'px';
+	 
+	        // move the background
+	        $scroll.css({ backgroundPosition: coords });    
+	      }); // end window scroll
+	   });  // end section function
+	 
+	   $('.parallax-section2').each(function(){
+	     // declare the variable to affect the defined data-type
+	     var $scroll = $(this);
+	     var width = $(window).width();
+	     var mul2 = 0;
+	     if (width < 768)
+	     {
+	     	mul2 = 0;
+	     }
+	     else if (width < 992)
+	     {
+	     	mul2 = 80;
+	     }
+	     else if (width < 1200)
+	     {
+	     	mul2 = 160;
+	     }
+	     else
+	     {
+	     	mul2 = 300;
+	     }
+	                     
+	      $(window).scroll(function() {
+	        // HTML5 proves useful for helping with creating JS functions!
+	        // also, negative value because we're scrolling upwards                             
+	        var yPos = -(($window.scrollTop() / $scroll.data('speed'))) - (mul2); 
+	         
+	        // background position
+	        var coords = '50%'+ yPos + 'px';
+	 
+	        // move the background
+	        $scroll.css({ backgroundPosition: coords });    
+	      }); // end window scroll
+	   });  // end section function
+	 
+	   $('.parallax-section3').each(function(){
+	     // declare the variable to affect the defined data-type
+	     var $scroll = $(this);
+	     var width = $(window).width();
+	     var mul3 = 0;
+	     if (width < 768)
+	     {
+	     	mul3 = 750;
+	     }
+	     else if (width < 992)
+	     {
+	     	mul3 = 170;
+	     }
+	     else if (width < 1200)
+	     {
+	     	mul3 = -50;
+	     }
+	     else
+	     {
+	     	mul3 = -150;
+	     }
+	                     
+	      $(window).scroll(function() {
+	        // HTML5 proves useful for helping with creating JS functions!
+	        // also, negative value because we're scrolling upwards            
+	        var yPos = -(($window.scrollTop() / $scroll.data('speed'))) + (mul3); 
 	         
 	        // background position
 	        var coords = '50%'+ yPos + 'px';
