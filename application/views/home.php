@@ -1,3 +1,5 @@
+<html>
+<body >
 <div class="initial-load">
 	<i class="fa fa-spinner fa-pulse fa-5x middle-fixed"></i>
 </div>
@@ -38,7 +40,7 @@
 
 <div class="main-content-body">
 
-	<div data-speed="2" class="container-fluid home-section parallax-section" id="home">
+	<div data-speed="8" class="container-fluid home-section parallax-section" id="home">
 				<div class="col-xs-6 col-xs-push-3 col-sm-6 col-sm-push-3 first-section-text text-center">
 			    	<h1>You Chill, We Grill!</h1>
 			    </div>
@@ -133,7 +135,7 @@
 		</div>
 	</section>
 
-	<section class="gallery" id="gallery">
+	<section class="gallery gray_bg" id="gallery">
 		<div class="container">
 			<div class="row text-center section-header">
 				<h1>Gallery</h1>
@@ -216,7 +218,7 @@
 		</div>
 	</section>
 
-	<section  class="contact-us" id="contact">
+	<section  class="contact-us gray_bg" id="contact">
 		<div class="container">
 			<div class="row text-center section-header">
 				<h1>Contact Us</h1>
@@ -308,21 +310,29 @@
 	     var $scroll = $(this);
 	     var width = $(window).width();
 	     var mul2 = 0;
-	     if (width < 768)
+	     if (width < 600)
 	     {
-	     	mul2 = 0;
+	     	mul2 = -250;
+	     }
+	     else if (width < 768)
+	     {
+	     	mul2 = -150;
+	     }
+	     else if (width < 850)
+	     {
+	     	mul2 = -90;
 	     }
 	     else if (width < 992)
 	     {
-	     	mul2 = 80;
+	     	mul2 = -20;
 	     }
 	     else if (width < 1200)
 	     {
-	     	mul2 = 160;
+	     	mul2 = 120;
 	     }
 	     else
 	     {
-	     	mul2 = 300;
+	     	mul2 = 200;
 	     }
 	                     
 	      $(window).scroll(function() {
@@ -343,21 +353,29 @@
 	     var $scroll = $(this);
 	     var width = $(window).width();
 	     var mul3 = 0;
-	     if (width < 768)
+	     if (width < 600)
 	     {
-	     	mul3 = 750;
+	     	mul3 = 1150;
+	     }
+	     else if (width < 768)
+	     {
+	     	mul3 = 1100;
+	     }
+	     else if (width < 850)
+	     {
+	     	mul3 = 400;
 	     }
 	     else if (width < 992)
 	     {
-	     	mul3 = 170;
+	     	mul3 = 300;
 	     }
 	     else if (width < 1200)
 	     {
-	     	mul3 = -50;
+	     	mul3 = 20;
 	     }
 	     else
 	     {
-	     	mul3 = -150;
+	     	mul3 = -50;
 	     }
 	                     
 	      $(window).scroll(function() {
@@ -375,9 +393,8 @@
 	}); // close out script
 </script>
 
-
-
-
+</body>
+</html>
 
 
 
