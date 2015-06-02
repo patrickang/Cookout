@@ -63,8 +63,6 @@ section {
 
 .home-section {
 	background: url(../images/background_1.png);
-	/*-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);*/
 	top:50px;
 	margin-top:50px;
 	height:100%;
@@ -88,6 +86,7 @@ section {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: rgb(13, 15, 14);
+	background-position:0px;
 }
 
 .home-section3 {
@@ -96,6 +95,7 @@ section {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: rgb(13, 15, 14);
+	background-position:0px;
 }
 
 .navbar {
@@ -228,15 +228,10 @@ footer{
 	font-size:21px;
 }
 
-.menu-content > div > div > img{
-	width:80px;
-	margin-right:20px;
-	margin-bottom:20px;
-}
-
 .menu-price {
 	float:right;
-	margin-top:33px;
+	font-size:15px;
+	/*font-weight:300;*/
 }
 
 a {
@@ -337,11 +332,103 @@ a.active {
 }
 
 
+.menu-content > div > div > div > div > img{
+	width:100%;
+	margin-bottom:20px;
+}
 
+.sub-text {
+	font-size:15px;
+	color:gray;
+}
 
+@media (min-width:640px) {
+	.margin-top-20 {
+		margin-top:20px;
+	}
+}
 
+.menu-type {
+	font-size:20px;
+}
 
+.menu-active {
+	text-decoration: underline;
+	color:#23527c;
+}
 
+.view-complete-menu {
+	margin-top:20px;
+	font-size:20px;
+}
+.btn-primary {
+	font-size:20px;
+	margin-top:-5px;
+}
+
+.menu-category > h3 {
+	text-align:center;
+	margin-top:5px; 
+	padding-bottom:10px;
+	border-bottom: 4px double #eee;
+}
+
+.menu-category {
+	padding: 12px 15px;
+	background: #fff;
+	border: 1px solid #eaeaea;
+	border-radius: 4px;
+	margin-top:5px;
+}
+
+.menu-category > div {
+	margin-top: 7px;
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #ddd;
+	text-align:center;
+	font-size:18px;
+}
+
+.menu-price-food {
+	font-size:14px;
+}
+
+.menu-image {
+	max-height:250px;
+	width:100%;
+	background-size:contain;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+
+}
+
+@media (min-width:768px) {
+	.menu-image {
+		max-height:200px;
+	}
+}
+
+@media (min-width:992px) {
+	.menu-image {
+		max-height:150px;
+	}
+}
+
+@media (min-width:1200px) {
+	.menu-image {
+		max-height:200px;
+	}
+}
+
+.initial-margin-15 {
+	margin-bottom:15px;
+}
+
+@media (min-width:992px) {
+	.drinks-image {
+		max-height:350px;
+	}
+}
 
 
 

@@ -64,63 +64,469 @@
 		<div class="container">
 			<div class="row text-center section-header">
 				<h1>Menu</h1>
+				<div class="menu-type">
+					<a href="#" id="menu_tab_specials" class="menu-active">Specials</a>
+					---
+					<a href="#" id="menu_tab_food">Food</a>
+					---
+					<a href="#" id="menu_tab_drinks">Drinks</a>
+				</div>
 			</div>
 		</div>
 		<div class="container">
 			<div class="row menu-content">
-				<div class="col-sm-6">
-					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_1_square.jpg"/>Burger 1
-						<span class="menu-price">&#8369;250</span>
+				<div id="menu_content_specials">
+					<div class="col-md-6">
+						<div class="col-xs-12">
+							<div class="col-xs-2 col-sm-2 col-md-3">
+								<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_1_square.jpg"/>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-9 margin-top-20">
+								The B.I.B.
+								<br>
+								<span class="sub-text">(Breakfast in Bed)</span>
+								<span class="menu-price">1/4 lb. &#8369;199&nbsp;&nbsp;&nbsp;1/2 lb. &#8369;279</span>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="col-xs-2 col-sm-2 col-md-3">
+								<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_2_square.jpg"/>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-9 margin-top-20">
+								The B.S.B.
+								<br>
+								<span class="sub-text">(Beef & Sausage Burger)</span>
+								<span class="menu-price">1/4 lb. &#8369;189&nbsp;&nbsp;&nbsp;1/2 lb. &#8369;269</span>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="col-xs-2 col-sm-2 col-md-3">
+								<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_3_square.jpg"/>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-9 margin-top-20">
+								The I.B.J.
+								<br>
+								<span class="sub-text">(Italian Burger Job)</span>
+								<span class="menu-price">1/4 lb. &#8369;189&nbsp;&nbsp;&nbsp;1/2 lb. &#8369;269</span>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="col-xs-2 col-sm-2 col-md-3">
+								<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_4_square.jpg"/>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-9 margin-top-20">
+								The T.W.B.
+								<br>
+								<span class="sub-text">(The Works Burger)</span>
+								<span class="menu-price">1/3 lb. &#8369;299</span>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="col-xs-2 col-sm-2 col-md-3">
+								<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/wings_square.jpg"/>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-9 margin-top-20">
+								Buffalo Wings
+								<br>
+								<span class="menu-price">3 pcs. &#8369;195&nbsp;&nbsp;5 pcs. &#8369;295</span>
+							</div>
+						</div>
 					</div>
-					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_2_square.jpg"/>Burger 2
-						<span class="menu-price">&#8369;250</span>
-					</div>
-					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_3_square.jpg"/>Burger 3
-						<span class="menu-price">&#8369;250</span>
-					</div>
-					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/burger_4_square.jpg"/>Burger 4
-						<span class="menu-price">&#8369;250</span>
-					</div>
-					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/ribs_square.jpg"/>Ribs
-						<span class="menu-price">&#8369;250</span>
-					</div>
-					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/carbonara_square.jpg"/>Carbonara
-						<span class="menu-price">&#8369;250</span>
+					<div class="col-md-6">
+						<div class="col-xs-12">
+							<div class="col-xs-2 col-sm-2 col-md-3">
+								<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/hungarian_square.jpg"/>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-9 margin-top-20">
+								Sausage Links
+								<br>
+								<span class="menu-price">6 inch &#8369;165&nbsp;&nbsp;12 inch &#8369;299</span>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="col-xs-2 col-sm-2 col-md-3">
+								<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/fries_square.jpg"/>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-9 margin-top-20">
+								Chili Cheese Fries
+								<br>
+								<span class="menu-price">Single &#8369;129&nbsp;&nbsp;Sharing &#8369;219</span>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="col-xs-2 col-sm-2 col-md-3">
+								<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/lasagna_square.jpg"/>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-9">
+								<br>
+								Lasagna
+								<span class="menu-price">&#8369;199</span>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="col-xs-2 col-sm-2 col-md-3">
+								<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/cheese_steak_square.jpg"/>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-9">
+								<br>
+								Cheese Steak Sandwich
+								<span class="menu-price">&#8369;219</span>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="col-xs-2 col-sm-2 col-md-3">
+								<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/carbonara_square.jpg"/>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-9">
+								<br>
+								Carbonara
+								<span class="menu-price">&#8369;209</span>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-6">
-					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/lasagna_square.jpg"/>Lasagna
-						<span class="menu-price">&#8369;250</span>
+				<div id="menu_content_food" class="menu-food" style="display:none">
+					<div class="col-md-4 col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-offset-0">
+						<div class="menu-category col-xs-12">
+							<h3>Burgers</h3>
+							<img class="img-responsive menu-image" src="<?php echo base_url();?>assets/images/section2.png">
+							<div class="col-xs-12">
+								The B.I.B.
+								<br>
+								<span class="sub-text">(Breakfast in Bed)</span><br>
+								<span class="menu-price-food">1/4 lb. &#8369;199&nbsp;&nbsp;&nbsp;1/2 lb. &#8369;279</span>
+							</div>
+							<div class="col-xs-12">
+								The B.S.B.
+								<br>
+								<span class="sub-text">(Beef & Sausage Burger)</span><br>
+								<span class="menu-price-food">1/4 lb. &#8369;189&nbsp;&nbsp;&nbsp;1/2 lb. &#8369;269</span>
+							</div>
+							<div class="col-xs-12">
+								The I.B.J.
+								<br>
+								<span class="sub-text">(Italian Burger Job)</span><br>
+								<span class="menu-price-food">1/4 lb. &#8369;189&nbsp;&nbsp;&nbsp;1/2 lb. &#8369;269</span>
+							</div>
+							<div class="col-xs-12">
+								The T.W.B.
+								<br>
+								<span class="sub-text">(The Works Burger)</span><br>
+								<span class="menu-price-food">1/3 lb. &#8369;299</span>
+							</div>
+						</div>
 					</div>
-					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/cheese_steak_square.jpg"/>Cheese Steak
-						<span class="menu-price">&#8369;250</span>
+					<div class="col-md-4 col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-offset-0">
+						<div class="menu-category col-xs-12">
+							<h3>Specials</h3>
+							<img class="img-responsive menu-image" src="<?php echo base_url();?>assets/images/wings_1440_960.jpg">
+							<div class="col-xs-12">
+								USDA Hanging Tender Steak
+								<br>
+								<span class="sub-text">served with fries</span><br>
+								<span class="menu-price-food">&#8369;389</span>
+							</div>
+							<div class="col-xs-12">
+								Classic Chicken Wings
+								<br>
+								<span class="sub-text">served with gravy</span><br>
+								<span class="menu-price-food">3 pcs. &#8369;149&nbsp;&nbsp;&nbsp;5 pcs. &#8369;219</span>
+							</div>
+							<div class="col-xs-12">
+								Buffalo Wings
+								<br>
+								<span class="sub-text">served with gravy</span><br>
+								<span class="menu-price-food">3 pcs. &#8369;195&nbsp;&nbsp;&nbsp;5 pcs. &#8369;295</span>
+							</div>
+							<div class="col-xs-12">
+								USDA Beef Salpicao
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;199</span>
+							</div>
+						</div>
 					</div>
-					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/hungarian_square.jpg"/>Hungarian
-						<span class="menu-price">&#8369;250</span>
+					<div class="col-md-4 col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-offset-0">
+						<div class="menu-category col-xs-12">
+							<h3>Specials</h3>
+							<img class="img-responsive menu-image" src="<?php echo base_url();?>assets/images/cheese_steak_1440_960.jpg">
+							<div class="col-xs-12">
+								Southwestern BBQ Rubbed
+								<br>
+								<span class="sub-text">Chicken Fillet</span><br>
+								<span class="menu-price-food">2 pcs. &#8369;280&nbsp;&nbsp;&nbsp;3 pcs. &#8369;360</span>
+							</div>
+							<div class="col-xs-12">
+								Southwestern BBQ Rubbed
+								<br>
+								<span class="sub-text">Porkchops</span><br>
+								<span class="menu-price-food">1 pc. &#8369;245&nbsp;&nbsp;&nbsp;2 pcs. &#8369;375&nbsp;&nbsp;&nbsp;3 pcs. &#8369;510</span>
+							</div>
+							<div class="col-xs-12">
+								Sausage Sampler
+								<br>
+								<span class="sub-text">4 types of sausages with fries</span><br>
+								<span class="menu-price-food">&#8369;299</span>
+							</div>
+							<div class="col-xs-12">
+								Cheese Steak Sandwich
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;219</span>
+							</div>
+						</div>
 					</div>
-					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/fries_square.jpg"/>Fries
-						<span class="menu-price">&#8369;250</span>
+					<div class="col-md-4 col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-offset-0">
+						<div class="menu-category col-xs-12">
+							<h3>Pasta</h3>
+							<img class="img-responsive menu-image" src="<?php echo base_url();?>assets/images/lasagna_1440_960.jpg">
+							<div class="col-xs-12">
+								Carbonara
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;209</span>
+							</div>
+							<div class="col-xs-12">
+								Sausage Bolognese
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;199</span>
+							</div>
+							<div class="col-xs-12">
+								Sausage Lasagna
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;159</span>
+							</div>
+							<div class="col-xs-12 hidden-md">
+								&nbsp;
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&nbsp;</span>
+							</div>
+						</div>
 					</div>
-					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/splatter_square.jpg"/>Splatter
-						<span class="menu-price">&#8369;250</span>
+					<div class="col-md-4 col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-offset-0">
+						<div class="menu-category col-xs-12">
+							<h3>Fries</h3>
+							<img class="img-responsive menu-image" src="<?php echo base_url();?>assets/images/fries_1440_960.jpg">
+							<div class="col-xs-12">
+								Chili Cheese
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">Single &#8369;129&nbsp;&nbsp;&nbsp;Sharing &#8369;219</span>
+							</div>
+							<div class="col-xs-12">
+								Steak Cut
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;45</span>
+							</div>
+							<div class="col-xs-12">
+								Curly
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;69</span>
+							</div>
+							<div class="col-xs-12 hidden-md">
+								&nbsp;
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&nbsp;</span>
+							</div>
+						</div>
 					</div>
-					<div class="col-xs-12">
-						<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/wings_square.jpg"/>Wings
-						<span class="menu-price">&#8369;250</span>
+					<div class="col-md-4 col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-offset-0">
+						<div class="menu-category col-xs-12">
+							<h3>Fries</h3>
+							<img class="img-responsive menu-image" src="<?php echo base_url();?>assets/images/fries_1440_960.jpg">
+							<div class="col-xs-12">
+								Jalapeno Cheese
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;89</span>
+							</div>
+							<div class="col-xs-12">
+								Gravy Fries
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">Single &#8369;129&nbsp;&nbsp;&nbsp;Sharing &#8369;219</span>
+							</div>
+							<div class="col-xs-12">
+								Wedges
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;69</span>
+							</div>
+							<div class="col-xs-12 hidden-md">
+								&nbsp;
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&nbsp;</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-offset-0">
+						<div class="menu-category col-xs-12">
+							<h3>All-Day Breakfast</h3>
+							<img class="img-responsive menu-image" src="<?php echo base_url();?>assets/images/logo_1440_960.jpg">
+							<div class="col-xs-12">
+								Maple Bacon, Egg
+								<br>
+								<span class="sub-text">Rice/Toast + Coffee</span><br>
+								<span class="menu-price-food">&#8369;125</span>
+							</div>
+							<div class="col-xs-12">
+								Breakfast Sausage, Egg
+								<br>
+								<span class="sub-text">Rice/Toast + Coffee</span><br>
+								<span class="menu-price-food">&#8369;149</span>
+							</div>
+							<div class="col-xs-12">
+								Corned Beef Hash, Egg
+								<br>
+								<span class="sub-text">Rice/Toast + Coffee</span><br>
+								<span class="menu-price-food">&#8369;129</span>
+							</div>
+							<div class="col-xs-12">
+								Burger Steak
+								<br>
+								<span class="sub-text">Rice + Coffee</span><br>
+								<span class="menu-price-food">&#8369;129</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-offset-0">
+						<div class="menu-category col-xs-12">
+							<h3>Add Ons</h3>
+							<img class="img-responsive menu-image initial-margin-15" src="<?php echo base_url();?>assets/images/logo_1440_960.jpg">
+							<div class="col-xs-4">
+								<span class="sub-text">Maple</span><br>
+								<span class="sub-text">Bacon</span><br>
+								<span class="menu-price-food">&#8369;35</span>
+							</div>
+							<div class="col-xs-4">
+								<span class="sub-text">Caramelized</span><br>
+								<span class="sub-text">Onions</span><br>
+								<span class="menu-price-food">&#8369;25</span>
+							</div>
+							<div class="col-xs-4">
+								<span class="sub-text">Garlic</span><br>
+								<span class="sub-text">Mushrooms</span><br>
+								<span class="menu-price-food">&#8369;25</span>
+							</div>
+							<div class="col-xs-4">
+								<span class="sub-text">Sausage</span><br>
+								<span class="sub-text">Chili</span><br>
+								<span class="menu-price-food">&#8369;50</span>
+							</div>
+							<div class="col-xs-4">
+								<span class="sub-text">Bleu</span><br>
+								<span class="sub-text">Cheese</span><br>
+								<span class="menu-price-food">&#8369;40</span>
+							</div>
+							<div class="col-xs-4">
+								<span class="sub-text">Garlic</span><br>
+								<span class="sub-text">Cream</span><br>
+								<span class="menu-price-food">&#8369;40</span>
+							</div>
+							<div class="col-xs-4">
+								<span class="sub-text">American</span><br>
+								<span class="sub-text">Cheddar</span><br>
+								<span class="menu-price-food">&#8369;20</span>
+							</div>
+							<div class="col-xs-4">
+								<span class="sub-text">Monterey</span><br>
+								<span class="sub-text">Jack</span><br>
+								<span class="menu-price-food">&#8369;35</span>
+							</div>
+							<div class="col-xs-4">
+								<span class="sub-text">Mozarella</span><br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;35</span>
+							</div>
+							<div class="col-xs-4">
+								<span class="sub-text">Havarti</span><br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;40</span>
+							</div>
+							<div class="col-xs-4">
+								<span class="sub-text">Gravy</span><br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;10</span>
+							</div>
+							<div class="col-xs-4">
+								<span class="sub-text">Egg</span><br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;10</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="menu_content_drinks" style="display:none">
+					<div class="col-md-6 col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-offset-0 col-lg-4 col-lg-offset-2">
+						<div class="menu-category col-xs-12">
+							<img class="img-responsive menu-image drinks-image" src="<?php echo base_url();?>assets/images/logo_1440_960.jpg">
+							<div class="col-xs-12">
+								Lemon Iced Tea
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">12 oz. &#8369;40&nbsp;&nbsp;&nbsp;22 oz. &#8369;60&nbsp;&nbsp;&nbsp;36 oz. &#8369;80</span>
+							</div>
+							<div class="col-xs-12">
+								Soda
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">45</span>
+							</div>
+							<div class="col-xs-12">
+								Mineral Water
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;25</span>
+							</div>
+							<div class="col-xs-12">
+								Chocolate Milkshake
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;90</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-offset-0 col-lg-4">
+						<div class="menu-category col-xs-12">
+							<img class="img-responsive menu-image drinks-image" src="<?php echo base_url();?>assets/images/logo_1440_960.jpg">
+							<div class="col-xs-12">
+								Coffee
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">&#8369;60</span>
+							</div>
+							<div class="col-xs-12">
+								San Mig Light
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">Bottle &#8369;50&nbsp;&nbsp;&nbsp;Mug &#8369;99</span>
+							</div>
+							<div class="col-xs-12">
+								San Mig Pale Pilsen
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">Bottle &#8369;50&nbsp;&nbsp;&nbsp;Mug &#8369;99</span>
+							</div>
+							<div class="col-xs-12">
+								San Mig Premium
+								<br>
+								<span class="sub-text">&nbsp;</span><br>
+								<span class="menu-price-food">Bottle &#8369;70&nbsp;&nbsp;&nbsp;Mug &#8369;129</span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="text-center view-complete-menu">
+			View our complete menu <a href="#" onclick="window.open('<?php echo base_url();?>assets/images/downloads/menu.jpg');return false;" class="btn btn-primary">Here</a>
 		</div>
 	</section>
 
@@ -145,23 +551,23 @@
 			<div class="row gallery-section">
 				<div class="col-md-3 col-sm-6" id="image_1">
 					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/burger_1_square.jpg"/>
-					<span class="hidden-xs gallery-caption" id="caption_1">Burger 1</span>
-					<span class="visible-xs gallery-caption-xs">Burger 1</span>
+					<span class="hidden-xs gallery-caption" id="caption_1">The B.I.B.</span>
+					<span class="visible-xs gallery-caption-xs">The B.I.B.</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_2">
 					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/burger_2_square.jpg"/>
-					<span class="hidden-xs gallery-caption" id="caption_2">Burger 2</span>
-					<span class="visible-xs gallery-caption-xs">Burger 2</span>
+					<span class="hidden-xs gallery-caption" id="caption_2">The B.S.B.</span>
+					<span class="visible-xs gallery-caption-xs">The B.S.B.<span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_3">
 					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/burger_3_square.jpg"/>
-					<span class="hidden-xs gallery-caption" id="caption_3">Burger 3</span>
-					<span class="visible-xs gallery-caption-xs">Burger 3</span>
+					<span class="hidden-xs gallery-caption" id="caption_3">The I.B.J.</span>
+					<span class="visible-xs gallery-caption-xs">The I.B.J.</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_4">
 					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/burger_4_square.jpg"/>
-					<span class="hidden-xs gallery-caption" id="caption_4">Burger 4</span>
-					<span class="visible-xs gallery-caption-xs">Burger 4</span>
+					<span class="hidden-xs gallery-caption" id="caption_4">The T.W.B.</span>
+					<span class="visible-xs gallery-caption-xs">The T.W.B.</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_5">
 					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/ribs_square.jpg"/>
@@ -185,13 +591,13 @@
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_9">
 					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/hungarian_square.jpg"/>
-					<span class="hidden-xs gallery-caption" id="caption_9">Hungarian</span>
-					<span class="visible-xs gallery-caption-xs">Hungarian</span>
+					<span class="hidden-xs gallery-caption" id="caption_9">Sausage Links</span>
+					<span class="visible-xs gallery-caption-xs">Sausage Links</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_10">
 					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/fries_square.jpg"/>
-					<span class="hidden-xs gallery-caption" id="caption_10">Fries</span>
-					<span class="visible-xs gallery-caption-xs">Fries</span>
+					<span class="hidden-xs gallery-caption" id="caption_10">Chili Cheese Fries</span>
+					<span class="visible-xs gallery-caption-xs">Chili Cheese Fries</span>
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_11">
 					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/splatter_square.jpg"/>
@@ -200,8 +606,8 @@
 				</div>
 				<div class="col-md-3 col-sm-6" id="image_12">
 					<img class="heading-image img-responsive" src="<?php echo base_url();?>assets/images/menu/wings_square.jpg"/>
-					<span class="hidden-xs gallery-caption" id="caption_12">Wings</span>
-					<span class="visible-xs gallery-caption-xs">Wings</span>
+					<span class="hidden-xs gallery-caption" id="caption_12">Buffalo Wings</span>
+					<span class="visible-xs gallery-caption-xs">Buffalo Wings</span>
 				</div>
 			</div>
 		</div>
@@ -255,6 +661,16 @@
 	$(document).ready(function(){
 		$('.initial-load').hide();
 		$('.main-content-body').show();
+
+		$('[id^="menu_tab_"]').click(function(){
+			var str = this.id;
+			var id = str.split('menu_tab_')[1];
+			$('[id^="menu_content_"]').hide();
+			$('[id^="menu_tab_"]').removeClass('menu-active');
+			$('#menu_content_'+id).fadeIn();
+			$('#menu_tab_'+id).addClass('menu-active');
+			return false;
+		});
 	})
 	$(document).ready(function(){
 		$('[id^="image_"]').hover(function(){
@@ -296,92 +712,6 @@
 	        // HTML5 proves useful for helping with creating JS functions!
 	        // also, negative value because we're scrolling upwards                             
 	        var yPos = -(($window.scrollTop() / $scroll.data('speed')) ); 
-	         
-	        // background position
-	        var coords = '50%'+ yPos + 'px';
-	 
-	        // move the background
-	        $scroll.css({ backgroundPosition: coords });    
-	      }); // end window scroll
-	   });  // end section function
-	 
-	   $('.parallax-section2').each(function(){
-	     // declare the variable to affect the defined data-type
-	     var $scroll = $(this);
-	     var width = $(window).width();
-	     var mul2 = 0;
-	     if (width < 600)
-	     {
-	     	mul2 = -250;
-	     }
-	     else if (width < 768)
-	     {
-	     	mul2 = -150;
-	     }
-	     else if (width < 850)
-	     {
-	     	mul2 = -90;
-	     }
-	     else if (width < 992)
-	     {
-	     	mul2 = -20;
-	     }
-	     else if (width < 1200)
-	     {
-	     	mul2 = 120;
-	     }
-	     else
-	     {
-	     	mul2 = 200;
-	     }
-	                     
-	      $(window).scroll(function() {
-	        // HTML5 proves useful for helping with creating JS functions!
-	        // also, negative value because we're scrolling upwards                             
-	        var yPos = -(($window.scrollTop() / $scroll.data('speed'))) - (mul2); 
-	         
-	        // background position
-	        var coords = '50%'+ yPos + 'px';
-	 
-	        // move the background
-	        $scroll.css({ backgroundPosition: coords });    
-	      }); // end window scroll
-	   });  // end section function
-	 
-	   $('.parallax-section3').each(function(){
-	     // declare the variable to affect the defined data-type
-	     var $scroll = $(this);
-	     var width = $(window).width();
-	     var mul3 = 0;
-	     if (width < 600)
-	     {
-	     	mul3 = 1150;
-	     }
-	     else if (width < 768)
-	     {
-	     	mul3 = 1100;
-	     }
-	     else if (width < 850)
-	     {
-	     	mul3 = 400;
-	     }
-	     else if (width < 992)
-	     {
-	     	mul3 = 300;
-	     }
-	     else if (width < 1200)
-	     {
-	     	mul3 = 20;
-	     }
-	     else
-	     {
-	     	mul3 = -50;
-	     }
-	                     
-	      $(window).scroll(function() {
-	        // HTML5 proves useful for helping with creating JS functions!
-	        // also, negative value because we're scrolling upwards            
-	        var yPos = -(($window.scrollTop() / $scroll.data('speed'))) + (mul3); 
 	         
 	        // background position
 	        var coords = '50%'+ yPos + 'px';
