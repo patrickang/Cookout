@@ -320,7 +320,7 @@
 								<span class="sub-text">&nbsp;</span><br>
 								<span class="menu-price-food">&#8369;159</span>
 							</div>
-							<div class="col-xs-12 hidden-md">
+							<div class="col-xs-12 hidden-md hidden-lg hidden-xl">
 								&nbsp;
 								<br>
 								<span class="sub-text">&nbsp;</span><br>
@@ -350,7 +350,7 @@
 								<span class="sub-text">&nbsp;</span><br>
 								<span class="menu-price-food">&#8369;69</span>
 							</div>
-							<div class="col-xs-12 hidden-md">
+							<div class="col-xs-12 hidden-md hidden-lg hidden-xl">
 								&nbsp;
 								<br>
 								<span class="sub-text">&nbsp;</span><br>
@@ -380,7 +380,7 @@
 								<span class="sub-text">&nbsp;</span><br>
 								<span class="menu-price-food">&#8369;69</span>
 							</div>
-							<div class="col-xs-12 hidden-md">
+							<div class="col-xs-12 hidden-md hidden-lg hidden-xl">
 								&nbsp;
 								<br>
 								<span class="sub-text">&nbsp;</span><br>
