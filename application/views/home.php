@@ -123,6 +123,30 @@
 						</div>
 						<div class="col-xs-12">
 							<div class="col-xs-2 col-sm-2 col-md-3">
+								<img class="img-circle" src="<?php echo base_url();?>assets/images/about_square.png"/>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-9 margin-top-20">
+								Southwestern BBQ
+								<br>
+								<span class="sub-text">Rubbed Chicken Fillet</span>
+								<span class="menu-price">2 pcs. &#8369;280&nbsp;&nbsp;3 pcs. &#8369;360</span>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="col-xs-2 col-sm-2 col-md-3">
+								<img class="img-circle" src="<?php echo base_url();?>assets/images/about_square.png"/>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-9 margin-top-20">
+								Southwestern BBQ
+								<br>
+								<span class="sub-text">Rubbed Porkchops</span>
+								<span class="menu-price">1 pc. &#8369;245&nbsp;&nbsp;2 pcs. &#8369;375&nbsp;&nbsp;3 pcs. &#8369;510</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="col-xs-12">
+							<div class="col-xs-2 col-sm-2 col-md-3">
 								<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/wings_square.jpg"/>
 							</div>
 							<div class="col-xs-10 col-sm-10 col-md-9 margin-top-20">
@@ -131,8 +155,6 @@
 								<span class="menu-price">3 pcs. &#8369;195&nbsp;&nbsp;5 pcs. &#8369;295</span>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-6">
 						<div class="col-xs-12">
 							<div class="col-xs-2 col-sm-2 col-md-3">
 								<img class="img-circle" src="<?php echo base_url();?>assets/images/menu/hungarian_square.jpg"/>
