@@ -679,71 +679,8 @@
 	</footer>
 </div>
 
-<script>
-	$(document).ready(function(){
-		$('.initial-load').hide();
-		$('.main-content-body').show();
+<script src="<?php echo base_url();?>/assets/js/main.min.js"></script>
 
-		$('[id^="menu_tab_"]').click(function(){
-			var str = this.id;
-			var id = str.split('menu_tab_')[1];
-			$('[id^="menu_content_"]').hide();
-			$('[id^="menu_tab_"]').removeClass('menu-active');
-			$('#menu_content_'+id).fadeIn();
-			$('#menu_tab_'+id).addClass('menu-active');
-			return false;
-		});
-	})
-	$(document).ready(function(){
-		$('[id^="image_"]').hover(function(){
-			var str = this.id;
-			var id = str.split('_')[1];
-			$('#caption_'+id).css('background-color','#000');
-			$('#caption_'+id).css('color','#FFF');
-		})
-		$('[id^="image_"]').mouseleave(function(){
-			var str = this.id;
-			var id = str.split('_')[1];
-			$('#caption_'+id).css('background-color','transparent');
-			$('#caption_'+id).css('color','transparent');
-		})
-	});
-	$(function() {
-	  $('a[href*=#]:not([href=#])').click(function() {
-	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-	      var target = $(this.hash);
-	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      if (target.length) {
-	        $('html,body').animate({
-	          scrollTop: target.offset().top-50
-	        }, 500);
-	        return false;
-	      }
-	    }
-	  });
-	});
-	$(document).ready(function(){
-	   // cache the window object
-	   $window = $(window);
-	 
-	   $('.parallax-section').each(function(){
-	     // declare the variable to affect the defined data-type
-	     var $scroll = $(this);
-	                     
-	      $(window).scroll(function() {
-	        // HTML5 proves useful for helping with creating JS functions!
-	        // also, negative value because we're scrolling upwards                             
-	        var yPos = -(($window.scrollTop() / $scroll.data('speed')) ); 
-	         
-	        // background position
-	        var coords = '50%'+ yPos + 'px';
-	 
-	        // move the background
-	        $scroll.css({ backgroundPosition: coords });    
-	      }); // end window scroll
-	   });  // end section function
-	}); // close out script
-</script>
 
 </body>
 </html>
